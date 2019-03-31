@@ -1,0 +1,27 @@
+.navbar{
+    background-color: rgb(255,132,0) !important;
+}
+.navbar .dropdown-menu2{
+    background-color: rgba(13,171,76);
+}
+.dropdown-menu2{
+    background-color: rgb(255,132,0);
+}
+
+.dropdown-menu2 .dropdown-header{
+    color: white;
+    font-size: 18px;
+}
+
+.dropdown-menu2 .dropdown-item{
+    color: white;
+    font-size: 15px;
+}
+
+.dropdown-menu2 .dropdown-item:hover{
+    background-color: rgba(13,171,76);
+}
+.dropdown-item:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
