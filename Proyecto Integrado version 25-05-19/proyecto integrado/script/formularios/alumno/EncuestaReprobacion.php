@@ -4,18 +4,7 @@ if ((!isset ($_SESSION['IdUsuarioAlumno']))&&(!isset ($_SESSION['LoggedinAlumno'
 {
  echo "<script language='javascript'>window.location='LoginAlumno.php'</script>";
 }
-include_once "../../clases/SQLControlador.php";
-include_once "../../clases/Alumno.php";
 
-$Mysql = new MySQLConector();
-$Mysql->Conectar();
-$Consulta = "SELECT Total FROM testaprendizaje WHERE Alumno_idAlumno='".$_SESSION['IdUsuarioAlumno']."';";
-$Resultado = $Mysql->Consulta($Consulta);
-                        if ($Resultado->num_rows > 0) {//si la variable tiene al menos 1 fila entonces seguimos con el codigo
-                          echo "<script language='javascript'>window.location='consultatestaprendizaje.php'</script>";
-                        }else{
-                         // echo "<script language='javascript'>window.location='testaprendizajealumno.php'</script>";
-                        }
                         ?>
                         <!doctype html>
                         <html lang="en">
