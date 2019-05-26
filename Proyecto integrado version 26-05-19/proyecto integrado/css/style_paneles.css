@@ -1,0 +1,9 @@
+ .nav-pills > li > a.active {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    }
+
+    .nav-pills > li > a:hover {
+    color: #000000 !important;
+    background-color: rgb(255, 132, 0) !important;
+    }
